@@ -10,7 +10,7 @@ import lombok.NonNull;
 public class JobSearchSteps extends BaseSteps<JobSearchSteps> {
 
   private final TestStepSettings settings;
-  @NonNull private final JobSearchWP jobSearchWebPage;
+  private final JobSearchWP jobSearchWebPage;
 
   public JobSearchSteps(@NonNull TestStepSettings settings) {
     super(settings.getDriver());
